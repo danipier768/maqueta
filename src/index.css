@@ -5,3 +5,59 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.computer-icon{
+    width: 20%;
+}
+.container-sm{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.timeline {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    height: 6px;
+    background-color: #f39c12;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.timeline-event {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #f39c12;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+}
+.cicrle1{
+    display: flex;
+    justify-content: start;
+}
+.cicrle3{
+    display: flex;
+    justify-content: end;
+}
+.container-prin {
+    background-color: #f0f0f0;
+}
