@@ -5,8 +5,8 @@ const HeaderCompont = () =>{
                     <div className="row">
                          <div className="col-12 conteiner-image"> 
                                 <div className="row pt-5">
-                                    <div className="col-1 text-white pag-of d-flex mb-5">
-                                        <img src="https://cdn2.thedogapi.com/images/IBkYVm4v1.jpg" alt="" className="w-25"/>
+                                    <div className="col-2 text-white pag-of d-flex mb-5">
+                                        <img src="https://cdn2.thedogapi.com/images/IBkYVm4v1.jpg" alt="" className="w-25 image-user"/>
                                         <strong>PaginaOficial</strong>
                                     </div>
                                 </div>  
